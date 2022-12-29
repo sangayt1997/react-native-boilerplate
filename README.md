@@ -26,10 +26,22 @@ npm install -g react-native-cli
 yarn start
 ```
 - Open another new tab from your terminal(must be in same path as above).
+##### To run IOS devices or Emulator:
 ```html
 yarn ios 
 ```
 OR
+##### To run Android devices or Simulator:
 ```html
 yarn android
 ```
+
+#### How to use this Boilerplate or template?
+- First remove git logs from this repo
+```html
+rm -rf .git
+```
+- Then removed the codes which you don't want from app.tsx or components directory.
+- Then you can push your changes to your github repo and so on.
+
+### THANK YOU FOR USING THIS TEMPLATE AND KEEP ON LEARNING ❤️❤️❤️
