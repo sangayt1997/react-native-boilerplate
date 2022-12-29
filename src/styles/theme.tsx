@@ -2,12 +2,12 @@ import { extendTheme } from 'native-base';
 
 export const theme = extendTheme({
   colors: {
-    // Basic Colors here
+    //Add your basic Colors here
     white: '#FFFFFF',
     black: '#000000',
     black60: 'rgba(0,0,0,0.60)',
 
-    //Theme Colors here
+    //Add your theme Colors here
     primary: {
       50: '#FFF1EB',
       100: '#FFE2D6',
@@ -81,7 +81,7 @@ export const theme = extendTheme({
       900: '#27070E',
     },
   },
-  //Component Overwriting default styling here
+  //Overwrite your components styling as per your requirements
   components: {
     Heading: {
       baseStyle: {

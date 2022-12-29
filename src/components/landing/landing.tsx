@@ -17,6 +17,7 @@ function Landing() {
   };
 
   return (
+    //Remove this code and add your landing page code
     <Box flex={1} pt="48px" pb="30px" px="16px" bg="secondary.50">
       <VStack flex={1} justifyContent="space-between">
         <VStack space="16px">

@@ -4,6 +4,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NativeBaseProvider } from 'native-base';
 import { theme } from './src/styles/theme';
 import Landing from './src/components/landing/landing';
+
 const App = () => {
   return (
     <SafeAreaProvider>
@@ -17,6 +18,7 @@ const App = () => {
             backgroundColor="transparent"
             barStyle="dark-content"
           />
+          {/*Add dynamic navigation here to navigate your screens*/}
           <Landing />
         </NativeBaseProvider>
       </ScrollView>
