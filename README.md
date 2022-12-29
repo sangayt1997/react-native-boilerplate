@@ -1,2 +1,2 @@
-# react-native-boilerplate
-This project is boilerplate of react native with native base (Open source framework)
+### React Native Boilerplate with Native Base(UI Components framework RN)
+This project is boilerplate of React Native with Native Base.

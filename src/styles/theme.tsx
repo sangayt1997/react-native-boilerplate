@@ -5,6 +5,7 @@ export const theme = extendTheme({
     // Basic Colors here
     white: '#FFFFFF',
     black: '#000000',
+    black60: 'rgba(0,0,0,0.60)',
 
     //Theme Colors here
     primary: {
@@ -92,11 +93,16 @@ export const theme = extendTheme({
     },
     Button: {
       baseStyle: {
-        borderRadius: '6px',
+        borderRadius: 'full',
       },
       defaultProps: {
         colorScheme: 'primary',
-        py: '16px',
+        py: '14px',
+        _text: {
+          fontSize: '18px',
+          fontWeight: 700,
+          lineHeight: 24,
+        },
       },
     },
   },

@@ -1,8 +1,9 @@
 import React from 'react';
 import { ScrollView, StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { Box, NativeBaseProvider, Text } from 'native-base';
+import { NativeBaseProvider } from 'native-base';
 import { theme } from './src/styles/theme';
+import Landing from './src/components/landing/landing';
 const App = () => {
   return (
     <SafeAreaProvider>
@@ -16,9 +17,7 @@ const App = () => {
             backgroundColor="transparent"
             barStyle="dark-content"
           />
-          <Box flex={1} justifyContent="center" alignItems="center">
-            <Text>React Native Boilerplate with Native Base</Text>
-          </Box>
+          <Landing />
         </NativeBaseProvider>
       </ScrollView>
     </SafeAreaProvider>
